@@ -1,0 +1,65 @@
+.main-nav {
+  li {
+    display: block;
+    font-size: 21px;
+    text-align: center;
+    margin-bottom: 15px;
+
+    @media (min-width: 640px) {
+      display: inline-block;
+      margin-bottom: 0;
+
+      &:last-child a {
+        padding-right: 0;
+      }
+
+      &:hover {
+        background: transparent;
+      }
+    }
+  }
+
+  ul {
+    margin: 1.8em 0 0;
+
+    @media (min-width: 640px) {
+      background-color: transparent;
+    }
+  }
+
+  a {
+    padding: 7px 25px;
+    border-bottom: 1px solid #1e1e1e;
+    text-transform: uppercase;
+
+    &:link,
+    &:visited {
+      color: #1e1e1e;
+
+      @media (min-width: 640px) {
+        color: #111;
+      }
+    }
+
+    @media (min-width: 640px) {
+      padding: 7px 28px 7px 0;
+      border-bottom: none;
+
+      &:hover {
+        color: #3095de;
+      }
+    }
+  }
+
+  .active, .active:visited {
+    color: #3095de;
+
+    @media (min-width: 640px) {
+      color: #3095de;
+    }
+  }
+
+  @media (min-width: 640px) {
+    float: right;
+  }
+}

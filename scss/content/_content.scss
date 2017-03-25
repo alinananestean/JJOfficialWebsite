@@ -1,0 +1,33 @@
+//HERO IMAGE
+.hero-img {
+  height: calc(100vh - 398px);
+  background: url('../img/home-page-desktop.jpg') center center no-repeat;
+  background-size: cover;
+
+  @media (min-width: 640px) {
+    height: calc(100vh - 177px);
+  }
+
+  @media (min-width: 1400px) {
+    height: calc(100vh - 177px);
+    background: url('../img/home-page-desktop.jpg') center top no-repeat;
+    background-size: cover;
+  }
+}
+
+//TEXT
+#wrapper-content {
+  margin: 7em auto 7em;
+
+  p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.25rem;
+
+    &.quote {
+      color: #3095de;
+      margin: 70px auto;
+      font-style: italic;
+      font-size: 1.50rem;
+    }
+  }
+}

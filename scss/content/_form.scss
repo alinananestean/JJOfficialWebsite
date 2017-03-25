@@ -1,0 +1,37 @@
+form {
+  max-width: 600px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+input, textarea {
+  border: 0;
+  outline: 0;
+  padding: 1em;
+  display: block;
+  width: 100%;
+  margin-top: 1em;
+  border-radius: 8px;
+  font-family: 'Merriweather', sans-serif;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  resize: none;
+}
+
+input:focus,
+textarea:focus {
+  box-shadow: 0 0 2px #3095de;
+}
+
+#input-submit {
+  color: white;
+  background: #3095de;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0 1px 1px 1px #3095de;
+  }
+}
+
+textarea {
+  height: 126px;
+}

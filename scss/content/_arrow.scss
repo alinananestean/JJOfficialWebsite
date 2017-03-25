@@ -1,0 +1,60 @@
+//ARROW
+
+.scroll-arrows {
+  position: relative;
+  top: 100%;
+  text-align: center;
+}
+
+.scroll-arrow-white {
+  display: inline-block;
+  text-indent: -9999em;
+  letter-spacing: -9999em;
+  height: 30px;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+  position: relative;
+  top: -40px;
+  padding: 0 20px 30px;
+  color: #fff;
+
+  &:before {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 0 0 2px 2px;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+}
+
+@-webkit-keyframes bounce {
+  0%, 100% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0); }
+  50% {
+    -webkit-transform: translate(0, 7px);
+    transform: translate(0, 7px); }
+  80% {
+    -webkit-transform: translate(0, -7px);
+    transform: translate(0, -7px); } }
+
+@keyframes bounce {
+  0%, 100% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0); }
+  50% {
+    -webkit-transform: translate(0, 7px);
+    transform: translate(0, 7px); }
+  80% {
+    -webkit-transform: translate(0, -7px);
+    transform: translate(0, -7px); }
+}
