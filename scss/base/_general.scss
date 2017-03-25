@@ -21,7 +21,7 @@ body {
 
 /****HEADER****/
 
-.wrapper-header-footer {
+.wrapper-header {
   padding: 40px 0 0;
   margin: auto;
 }
@@ -106,7 +106,7 @@ hr {
 }
 
 
-.wrapper-header-footer img {
+.wrapper-header img {
   max-width: 100%;
   text-align: center;
 }
@@ -147,16 +147,16 @@ hr {
 
 /****BODY CONTENT****/
 
-#wrapper {
-  margin: 7em auto 9em;;
+#wrapper-content {
+  margin: 7em auto 7em;;
 }
 
-#wrapper p {
+#wrapper-content p {
   font-family: 'PT Sans', sans-serif;
   font-size: 1.25rem;
 }
 
-#wrapper p.quote {
+#wrapper-content p.quote {
   color: #3095de ;
   margin: 70px auto ;
   font-style: italic;
@@ -168,19 +168,24 @@ hr {
 
 /**** FOOTER****/
 
-.the-footer {
+footer hr {
+  margin: 0 auto;
+}
+
+footer {
   color: #212121;
   overflow: hidden;
 }
 
-.the-footer h5,
-.the-footer p {
+.wrapper-footer {
+  margin: 60px auto 34px;
+}
+
+footer h5,
+footer p {
   font-family: 'PT Sans', sans-serif;
 }
 
-.the-footer .row {
-  max-width: 100%;
-}
 
 .mail {
   margin: 0;
