@@ -1,11 +1,11 @@
 //HERO IMAGE
 .hero-img {
   height: calc(100vh - 398px);
-  background: url('../img/home-page-mobile.jpg') center center no-repeat;
+  background: url('../img/home-page-mobile.jpg') center top no-repeat;
   background-size: cover;
 
   @media (min-width: 640px) {
-    height: calc(100vh - 177px);
+    height: calc(100vh - 223px);
   }
 
   @media (min-width: 1400px) {
@@ -17,7 +17,8 @@
 
 //TEXT
 #wrapper-content {
-  margin: 7em auto 7em;
+  margin: 4em auto 4em;
+  padding: 0 1.4em;
 
   p {
     font-family: 'PT Sans', sans-serif;
@@ -29,5 +30,9 @@
       font-style: italic;
       font-size: 1.50rem;
     }
+  }
+
+  @media (min-width: 640px) {
+    margin: 7em auto 7em;
   }
 }
