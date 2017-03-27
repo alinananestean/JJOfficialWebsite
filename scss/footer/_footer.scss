@@ -1,9 +1,17 @@
 footer {
-  color: #212121;
+  color: $text-color;
   overflow: hidden;
 
   h5, p {
-  font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+  }
+
+  h5 {
+    font-size: 1.25em;
+  }
+
+  p {
+    font-size: 1em;
   }
 }
 
@@ -12,7 +20,6 @@ footer {
 }
 
 .f-social {
-
   img {
     margin: 1em .6em .3em;
     transition: .4s;

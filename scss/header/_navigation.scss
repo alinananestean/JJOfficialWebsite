@@ -31,15 +31,15 @@
 
   a {
     padding: 7px 25px;
-    border-bottom: 1px solid #1e1e1e;
+    border-bottom: 1px solid $text-color;
     text-transform: uppercase;
 
     &:link,
     &:visited {
-      color: #1e1e1e;
+      color: $text-color;
 
       @media (min-width: 640px) {
-        color: #111;
+        color: $text-color;
       }
     }
 

@@ -1,15 +1,16 @@
+// ... HOME PAGE ... //
 //HERO IMAGE
 .hero-img {
-  height: calc(100vh - 398px);
+  height: calc(100vh - 391px);
   background: url('../img/home-page-mobile.jpg') center top no-repeat;
   background-size: cover;
 
   @media (min-width: 640px) {
-    height: calc(100vh - 223px);
+    height: calc(100vh - 235px);
   }
 
   @media (min-width: 1400px) {
-    height: calc(100vh - 177px);
+    //height: calc(100vh - 177px);
     background: url('../img/home-page-desktop.jpg') center top no-repeat;
     background-size: cover;
   }
@@ -21,18 +22,44 @@
   padding: 0 1.4em;
 
   p {
-    font-family: 'PT Sans', sans-serif;
-    font-size: 1.25rem;
-
-    &.quote {
-      color: #3095de;
-      margin: 70px auto;
-      font-style: italic;
-      font-size: 1.50rem;
-    }
+    @extend %content-text;
   }
 
   @media (min-width: 640px) {
     margin: 7em auto 7em;
+  }
+}
+
+// ... BIO PAGE ... //
+
+#wrapper-content-bio {
+  margin: 0 auto;
+
+  .bio-content {
+    display: inline-block;
+  }
+
+  p {
+    @extend %content-text;
+
+    &.quote {
+            color: #3095de;
+            margin: 70px auto;
+            font-style: italic;
+            font-size: 1.50rem;
+          }
+  }
+
+  img {
+
+    @media (min-width: 640px) {
+      max-width: 350px;
+      float: left;
+      margin: 0 33px 33px 0;
+
+      &:not(:first-child) {
+        margin: 0 0 33px 33px;
+      }
+    }
   }
 }
