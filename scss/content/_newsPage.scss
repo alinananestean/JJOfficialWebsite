@@ -1,0 +1,35 @@
+#wrapper-content-news {
+  padding: 0 1.4em 5.6em;
+
+  h1 {
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 60px;
+  }
+
+  h2 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    padding: .9em 0 .3em;
+    margin: 0;
+    @media (min-width: 640px) {
+      padding: 0;
+    }
+    @media (min-width: 1024px) {
+      padding: 60px 0 30px;
+    }
+  }
+
+  hr {
+    border-bottom: 2px solid #dedede;
+    margin: 28px auto 32px;
+    @media (min-width: 640px) {
+      padding: 1em 0;
+    }
+  }
+
+  @media (min-width: 640px) {
+    padding-bottom: 100px;
+  }
+}

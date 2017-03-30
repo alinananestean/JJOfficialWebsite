@@ -1,0 +1,30 @@
+//HERO IMAGE
+.hero-img {
+  height: calc(100vh - 391px);
+  background: url('../img/home-page-mobile.jpg') center top no-repeat;
+  background-size: cover;
+
+  @media (min-width: 640px) {
+    height: calc(100vh - 235px);
+  }
+
+  @media (min-width: 1400px) {
+    //height: calc(100vh - 177px);
+    background: url('../img/home-page-desktop.jpg') center top no-repeat;
+    background-size: cover;
+  }
+}
+
+//TEXT
+#wrapper-content {
+  margin: 4em auto 4em;
+  padding: 0 1.4em;
+
+  p {
+    @extend %content-text;
+  }
+
+  @media (min-width: 640px) {
+    margin: 7em auto 7em;
+  }
+}
