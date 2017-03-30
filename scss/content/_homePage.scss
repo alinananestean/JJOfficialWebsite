@@ -1,11 +1,11 @@
 //HERO IMAGE
-.hero-img {
-  height: calc(100vh - 391px);
+.home-hero-img {
+  height: calc(100vh - 384px);
   background: url('../img/home-page-mobile.jpg') center top no-repeat;
   background-size: cover;
 
   @media (min-width: 640px) {
-    height: calc(100vh - 235px);
+    height: calc(100vh - 232px);
   }
 
   @media (min-width: 1400px) {

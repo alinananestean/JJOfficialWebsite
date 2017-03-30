@@ -3,7 +3,7 @@
 
   li {
     display: block;
-    font-size: 21px;
+    font-size: 20px;
     text-align: center;
     margin-bottom: 15px;
 
@@ -48,16 +48,16 @@
       border-bottom: none;
 
       &:hover {
-        color: #3095de;
+        color: $accent-color;
       }
     }
   }
 
   .active, .active:visited {
-    color: #3095de;
+    color: $accent-color;
 
     @media (min-width: 640px) {
-      color: #3095de;
+      color: $accent-color;
     }
   }
 

@@ -1,7 +1,26 @@
-#wrapper-content {
+//HERO IMAGE
+.contact-hero-img {
+  height: calc(100vh - 384px);
+  background: url('../img/contact-page-mobile.jpg') right top no-repeat;
+  background-size: cover;
+
+  @media (min-width: 640px) {
+    height: calc(100vh - 232px);
+  }
+
+  @media (min-width: 1400px) {
+    //height: calc(100vh - 177px);
+    background: url('../img/contact-page-desktop.jpg') center top no-repeat;
+    background-size: cover;
+  }
+}
+
+
+#wrapper-content-contact {
+  margin: 60px auto 80px;
+
   h1 {
-    font-family: 'PT Sans', sans-serif;
+    @extend %content-text;
     text-align: center;
-    font-size: 25px;
   }
 }

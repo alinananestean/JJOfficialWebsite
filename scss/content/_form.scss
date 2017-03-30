@@ -1,37 +1,53 @@
 form {
-  max-width: 600px;
-  text-align: center;
-  margin: 20px auto;
+  max-width: 345px;
+  margin: 60px auto 0;
 }
 
-input, textarea {
-  border: 0;
-  outline: 0;
-  padding: 1em;
-  display: block;
-  width: 100%;
-  margin-top: 1em;
-  border-radius: 8px;
-  font-family: 'Merriweather', sans-serif;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-  resize: none;
-}
+input[type=text],
+input[type=email],
+textarea[type=text] {
+  background-color: transparent;
+  box-shadow: none;
+  border-top: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-bottom: 1px solid #979797;
 
-input:focus,
-textarea:focus {
-  box-shadow: 0 0 2px #3095de;
-}
-
-#input-submit {
-  color: white;
-  background: #3095de;
-  cursor: pointer;
-
-  &:hover {
-    box-shadow: 0 1px 1px 1px #3095de;
+  &:focus {
+    background-color: transparent;
+    box-shadow: none;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-bottom: 1px solid $accent-color;
+    padding: 0.5rem 0.5rem 0.5rem 0;
   }
 }
 
-textarea {
-  height: 126px;
+input[type=text] {
+  height: 30px;
+}
+
+textarea[type=text] {
+  height: 45px;
+}
+
+label {
+  font-size: 16px;
+  margin-bottom: 45px;
+  -webkit-transition: color .4s cubic-bezier(.25,.8,.25,1),width .4s cubic-bezier(.25,.8,.25,1),-webkit-transform .4s cubic-bezier(.25,.8,.25,1);
+  transition: color .4s cubic-bezier(.25,.8,.25,1),width .4s cubic-bezier(.25,.8,.25,1),-webkit-transform .4s cubic-bezier(.25,.8,.25,1);
+  transition: transform .4s cubic-bezier(.25,.8,.25,1),color .4s cubic-bezier(.25,.8,.25,1),width .4s cubic-bezier(.25,.8,.25,1);
+  transition: transform .4s cubic-bezier(.25,.8,.25,1),color .4s cubic-bezier(.25,.8,.25,1),width .4s cubic-bezier(.25,.8,.25,1),-webkit-transform .4s cubic-bezier(.25,.8,.25,1);
+}
+
+.labelfocus {
+  color: $accent-color;
+}
+
+.contact-form-btn {
+  width: 120px;
+  height: 35px;
+  padding: 0;
+  background: $accent-color;
 }

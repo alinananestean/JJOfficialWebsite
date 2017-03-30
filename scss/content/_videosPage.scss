@@ -2,11 +2,7 @@
   padding: 0 1.4em 5.6em;
 
   h1 {
-    font-family: 'PT Sans', sans-serif;
-    text-align: center;
-    font-size: 25px;
-    padding-bottom: 60px;
-    padding-top: 15px;
+    @extend %page-heading-title;
   }
 
   img {
@@ -22,12 +18,9 @@
         float: left;
       }
     }
-
-
   }
 
-
   @media (min-width: 640px) {
-    padding-bottom: 100px;
+    padding: 0 0 100px 0;
   }
 }
