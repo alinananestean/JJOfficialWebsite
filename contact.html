@@ -36,16 +36,19 @@
     <div class="row">
         <div class="large-12 columns">
             <div id="wrapper-content-contact">
-                <h1>You can also send me a message! Looking forward to hearing from you.</h1>
-                <form>
+                <h1>Info &amp; Media [Business inquiries only]</h1>
+                <form action="email.php" method="post">
+                    <label for="input-subject">
+                        <input type="hidden" id="input-subject" name="input-subject" value="Web Contact">
+                    </label>
                     <label for="input-name">Name
-                        <input type="text" id="input-name" type="text">
+                        <input type="text" id="input-name" name="input-name">
                     </label>
                     <label for="input-email">Email
-                        <input type="email" id="input-email" type="text">
+                        <input type="email" id="input-email" name="input-email">
                     </label>
                     <label for="input-message">Message
-                        <textarea name="message" type="text" id="input-message"></textarea>
+                        <textarea id="input-message" name="input-message"></textarea>
                     </label>
                     <input type="submit" id="input-submit" class="button contact-form-btn" value="Send">
                 </form>
@@ -60,8 +63,6 @@
         <div class="wrapper-footer">
             <div class="row">
                 <div class="small-12 medium-4 column footer-col f-contact">
-                    <h5>Contact</h5>
-                    <p>By email: <span>info@jordanjansen.com</span></p>
                 </div>
                 <div class="small-12 medium-4 column footer-col f-social">
                     <h5>Follow me</h5>
