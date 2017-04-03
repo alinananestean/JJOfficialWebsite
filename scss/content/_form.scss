@@ -5,7 +5,7 @@ form {
 
 input[type=text],
 input[type=email],
-textarea[type=text] {
+textarea {
   background-color: transparent;
   box-shadow: none;
   border-top: 1px solid transparent;
@@ -28,7 +28,7 @@ input[type=text] {
   height: 30px;
 }
 
-textarea[type=text] {
+textarea {
   height: 45px;
 }
 
