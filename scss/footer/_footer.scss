@@ -2,16 +2,14 @@ footer {
   color: $text-color;
   overflow: hidden;
 
-  h5, p {
-    font-family: 'PT Sans', sans-serif;
-  }
-
   h5 {
+    font-family: 'PT Sans', sans-serif;
     font-size: 18px;
-  }
 
-  p {
-    font-size: 14px;
+    @media (min-width: 640px) {
+      text-align: left;
+      padding-left: 9px;
+    }
   }
 }
 
@@ -56,6 +54,10 @@ footer {
     &.f-logo {
       margin-top: 0;
       text-align: right;
+    }
+
+    &.f-social {
+      text-align: left;
     }
   }
 }
