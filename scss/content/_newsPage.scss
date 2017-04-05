@@ -57,6 +57,39 @@
       background-size: cover;
     }
 
+    &.th-sunnews {
+      background: url("../img/108-JJSunNews-crop.jpg") center center no-repeat;
+      background-size: cover;
+    }
+    &.th-courier-mail {
+      background: url("../img/109-CourierMail-crop.jpg") center center no-repeat;
+      background-size: cover;
+    }
+    &.th-girlfriend {
+      background: url("../img/113-GirlFriend-crop.jpg") center center no-repeat;
+      background-size: cover;
+    }
+    &.th-jun-dolly {
+      background: url("../img/114-DollyJune-crop.jpg") center center no-repeat;
+      background-size: cover;
+    }
+    &.th-radar  {
+      background: url("../img/110-RadarMarch-crop.jpg") center center no-repeat;
+      background-size: cover;
+    }
+    &.th-kidsday {
+      background: url("../img/116-KidsDayOut-crop.jpg") center center no-repeat;
+      background-size: cover;
+    }
+    &.th-d-dolly {
+      background: url("../img/117-JJdolly-crop.jpg") center center no-repeat;
+      background-size: cover;
+    }
+    &.th-indiamag {
+      background: url("../img/115-IndiaMag-crop.jpg") center center no-repeat;
+      background-size: cover;
+    }
+
     @media (min-width: 640px) and (max-width: 1200px) {
       margin-top: 15px;
     }
