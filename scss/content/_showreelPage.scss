@@ -1,0 +1,29 @@
+.showrell-video {
+
+}
+
+#wrapper-content-show {
+  margin: 0 auto;
+  padding: 60px 1.4em 80px;
+
+  .dload {
+      padding-top: 60px;
+    p {
+      font-weight: 600;
+    }
+
+    a {
+      font-size: 20px;
+      color: $accent-color;
+
+      &:hover {
+        text-decoration: underline;
+      }
+
+      &::before {
+        content: url(../img/pdf.png);
+        margin-right: 9px;
+      }
+    }
+  }
+}
