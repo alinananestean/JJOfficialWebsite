@@ -1,8 +1,6 @@
 #wrapper-content-news {
   padding: 0 1.4em 5.6em;
 
-
-
   h1 {
     @extend %page-heading-title;
   }
@@ -116,4 +114,11 @@
     padding-bottom: 100px;
 
   }
+}
+
+
+//Center the images when opened with modal
+
+.reveal {
+  text-align: center;
 }
