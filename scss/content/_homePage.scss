@@ -24,6 +24,10 @@
     @extend %content-text;
   }
 
+  .responsive-embed {
+    margin-top: 3.5rem;
+  }
+
   @media (min-width: 640px) {
     margin: 7em auto 7em;
   }

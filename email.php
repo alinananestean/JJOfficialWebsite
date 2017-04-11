@@ -1,6 +1,6 @@
 ﻿<?php
 
-  $m_to    = "oba@agsconsulting.org";
+  $m_to    = "info@jordanjansen.com";
   $m_from  = str_replace(","," ",$_REQUEST['input-name']);
   $m_from  = str_replace(";","",$m_from);
   $m_back  = "http://www.jordanjansen.com.au/index_test.html";
